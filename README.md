@@ -1,41 +1,35 @@
-Herring Cove
-============
+# Simpleyyt
 
-Herring Cove is a clean and responsive theme for Jekyll. 
+My blog based on Jekyll-Bootstrap.
 
+## About Jekyll-Bootstrap
 
-### Overview 
+For all usage and documentation please see: <http://jekyllbootstrap.com>
 
-* Fixed Sidebar with social links
-* Minimal design 
-* Comments by Disqus
-* Social Sharing abilities 
-* Easy to configure
-* Based on Bootstrap
+## About theme
 
-### Screenshots
+This theme is the copy of [elementaryOS](http://elementaryos.org) portal page. Some features are imperfect, but I will make it more perfect.
 
-![screenshot](/images/screenshot1.png)
-![screenshot](/images/screenshot2.png)
+## Usage
 
-### Setup
+You can edit the `_config.yml` file to change the setting of site. If you want to change avatar or favicon, just replace the files in `assets\themes\Snail\img`.
 
-1. Install Jekyll
-2. Fork or [download](https://github.com/arnp/herring-cove/archive/master.zip) this theme repo
-3. Edit the `_config.yml` file
+## About excerpt
 
-You can change the showcase image by replacing `showcase.jpg` file in the `images` folder. I'll try to find a better way to do this soon. 
+There are 2 ways of excerpt: "teaser" and "truncate_words" (Configurated in _config.yml).
 
-### Download
+ * "teaser": look for the More tag (<!--more-->) and create a teaser from the content that precedes the More tag.
+You must place "<!--more-->" at paragraph in post. The whole content will be displayed in homepage if no More tag found in post.
 
-[download](https://github.com/arnp/herring-cove/archive/master.zip)
+ * "truncate_words": generate an excerpt automatically by selecting the first 20 words of the post. It doesn't work well in some of no-English post.
 
-### License
-* [MIT](http://opensource.org/licenses/MIT)
+## Change Log
 
--------------
-Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions. 
+ * Add pagination.
+ * Add new way of excerpt.
+ * Download google fonts to the local.
+ * Add google custom search engine.
 
-*What's with the name?*
+## License
 
-[Herring Cove](http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
+[MIT](http://opensource.org/licenses/MIT)
