@@ -9,18 +9,18 @@ markdown: kramdown
 
 # The title and tagline is showed on homepage
 #
-title :  Simpleyyt 
-tagline: Yitao's Blog
+title :  Kaunteya title 
+tagline: Kaunteya's Blog
 
 # Information about author
 #
 author :
-  name : Yitao Yao
+  name : Kaunteya Suryawanshi
   
 # Information for contacts showed at on the footer
 #
 contact :
-  e-mail : mailto:simpleyyt@gmail.com
+  e-mail : mailto:k.suryawanshi@gmail.com
   Github : https://github.com/Simpleyyt
   WeiBo : http://www.weibo.com/u/1836017133
   Google+ : https://plus.google.com/103860633659538888207?rel=author
